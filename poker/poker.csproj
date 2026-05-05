@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E531744D-D4C4-4528-B484-BA51E3777BCC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>poker</RootNamespace>
+    <AssemblyName>poker</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmPicTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPicTest.Designer.cs">
+      <DependentUpon>frmPicTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmPicTest.resx">
+      <DependentUpon>frmPicTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723332_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723333_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723334_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723335_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723336_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723337_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723338_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723339_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723340_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723341_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723343_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723344_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723345_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10723346_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731523_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731524_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731525_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731526_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731527_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731528_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731529_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731530_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731531_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731532_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731534_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731535_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731536_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S__10731537_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\鬼牌.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花一.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花七.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花九.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花二.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花八.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花十.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花十一.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花十二.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花十三.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花三.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花五.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花六.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\梅花四.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形一.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形七.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形九.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形二.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形八.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形十.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形十一.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形十二.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形十三.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形三.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形五.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形六.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\菱形四.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃一.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃七.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃九.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃二.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃八.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃十.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃十一.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃十二.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃十三.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃三.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃五.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃六.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黑桃四.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心一.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心七.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心九.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心二.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心八.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心十.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心十一.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心十二.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心十三.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心三.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心五.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心六.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\愛心四.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\鬼牌1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\鬼牌2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s13.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
